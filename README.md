@@ -4,7 +4,7 @@ Aplicação web em Streamlit integrada à MLP treinada no notebook do projeto.
 
 ## Aplicação publicada
 
-Acesse a aplicação: **https://classificador-roubo-furto-mlp.streamlit.app/**
+Acesse a aplicação: **https://classificador-roubo-furto-ml.streamlit.app/**
 
 A interface permite selecionar os atributos definidos pela equipe no treinamento, acionar a classificação e visualizar a classe estimada e as probabilidades produzidas pela MLP.
 
@@ -62,3 +62,9 @@ Os resultados são experimentais e dependem da qualidade, representatividade e r
 Base pública de celulares subtraídos da Secretaria da Segurança Pública do Estado de São Paulo (SSP-SP), referente a 2025.
 
 Consulta: https://www.ssp.sp.gov.br/estatistica/consultas
+
+Para reproduzir a obtenção da base:
+1. Acesse a página de consultas estatísticas da SSP-SP.
+2. Localize a base de celulares subtraídos referente a 2025.
+3. Baixe o arquivo Excel disponibilizado pela Secretaria.
+4. No notebook, carregue a planilha `CelularesSubtraidos_2025.xlsx`, utilizando a aba `CELULAR_2025`.
